@@ -1,9 +1,9 @@
 #situaciones {
   position: absolute;
   right: 0px;
-  width: 25vw;  /* Permite ajustar automáticamente el ancho */
+  width: 23vw;  /* Permite ajustar automáticamente el ancho */
   height: auto;  /* Permite ajustar automáticamente la altura */
-  top: 20vh;
+  top: 15vh;
   padding: 20px;  /* Agrega espacio alrededor del contenido del div */
   box-sizing: border-box;  /* Incluye padding y border en el ancho total */
 
@@ -26,13 +26,6 @@
   box-sizing: border-box;  /* Incluye padding y border en el ancho total */
 }
 
-#texto {
-  position: absolute;
-  height: 5vh;
-  width: 20vw;
-  background-color: red;
-
-}
 
 #botonSiguiente2 {
   position: absolute;
@@ -85,7 +78,7 @@
 }
 
 .situacion {
-  width: calc(70% - 10px);  /* Ancho del contenedor hijo (restar 10px para la separación) */
+  width: calc(100% - 10px);  /* Ancho del contenedor hijo (restar 10px para la separación) */
   height: 5vh;  /* Altura del contenedor hijo */
   background-size: contain;  /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
   background-repeat: no-repeat;  /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
